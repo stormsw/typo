@@ -1,0 +1,9 @@
+  <%if current_user.admin?%>
+  <div class="">
+  	<h4><%=_("Merge Articles")%></h4>
+  	<div class='class'>
+      		Article ID&nbsp;<input type="text" name="merge_with" id="merge_with" value="" />
+      		<input type="submit" value="Merge" />
+    </div>
+  </div>
+  <%end%>   
